@@ -1,17 +1,19 @@
 * {
   font-family: Papyrus, 'Times New Roman', serif;
 }
+body {
+  background-color:rgb(37, 33, 60);
+}
 
 #title {
-  color:rgb(153, 77, 224);
+  color:rgb(198, 102, 58);
   text-align: center;
 }
 
 .recipe-links {
-  list-style: none;
-  text-align: center;
-  padding: 10px;
-  background-color: pink;
+  width: fit-content;
+  margin: 0 auto;
+  color:rgb(198, 102, 58);
 }
 .recipe-bolognese {
   margin: 10px;
@@ -23,4 +25,13 @@
 
 .recipe-meatballs {
   margin: 10px;
+}
+
+img {
+  display:block;
+  height: 100px;
+  width: auto;
+  border-style: groove;
+  border-radius: 10px;
+  
 }
