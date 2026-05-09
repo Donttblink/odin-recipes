@@ -1,0 +1,26 @@
+* {
+  font-family: Papyrus, 'Times New Roman', serif;
+}
+
+#title {
+  color:rgb(153, 77, 224);
+  text-align: center;
+}
+
+.recipe-links {
+  list-style: none;
+  text-align: center;
+  padding: 10px;
+  background-color: pink;
+}
+.recipe-bolognese {
+  margin: 10px;
+}
+
+.recipe-butterchicken {
+  margin: 10px;
+}
+
+.recipe-meatballs {
+  margin: 10px;
+}
