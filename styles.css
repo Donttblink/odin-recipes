@@ -1,8 +1,11 @@
 * {
   font-family: Papyrus, 'Times New Roman', serif;
+  color:rgb(198, 102, 58);
 }
 body {
   background-color:rgb(37, 33, 60);
+  border: 5px;
+  padding: 15px;
 }
 
 #title {
@@ -33,6 +36,27 @@ img {
   width: auto;
   border-style: groove;
   border-radius: 10px;
+  margin: 0 auto;
   
 }
 
+.description, .ingredients, .steps {
+  border: 5px solid red;
+  padding: 10px 5px;
+  margin: 16px;
+  width: fit-content;
+}
+
+.ingredients, .steps {
+  display: inline-block;
+}
+
+.home {
+  display:block;
+  margin: 0 auto;
+  font-size: 28px;
+  border-width: 3px;
+  border-color:rgb(198, 102, 58);
+  background-color: rgb(37, 33, 60);
+  border-style: groove;
+}
